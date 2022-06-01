@@ -1,0 +1,1 @@
+int fun_sum(int val_a, int val_b);

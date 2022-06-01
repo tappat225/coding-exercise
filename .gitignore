@@ -1,0 +1,35 @@
+# ignore all
+*
+
+# upload all directories
+# !/*/
+# !/*/**/
+
+# only upload directories below
+!/BASE_KNOW/
+!/BASE_KNOW/**/
+!/KY/
+!/KY/**/
+!/Leetcode/
+!/Leetcode/**/
+!/PAT/
+!/PAT/**/
+!/Playground/
+!/Playground/**/
+!/RJ/
+!/RJ/**/
+!/Tools_function/
+!/Tools_function/**/
+!/algorithm/
+!/algorithm/**/
+
+# only upload file types below
+!*.c
+!*.h
+!*.cpp
+!Makefile
+!*.md
+!CMakeLists.txt
+
+# special files to be uploaded
+!.gitignore

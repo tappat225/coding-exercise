@@ -1,0 +1,1 @@
+use -O2 -fmax-errors=10 -Wall -Werror -lm -lpthread --static -std=gnu99 -DONLINE_JUDGE to build
