@@ -6,8 +6,8 @@
 # !/*/**/
 
 # only upload directories below
-!/BASE_KNOW/
-!/BASE_KNOW/**/
+!/BasicKnowledge/
+!/BasicKnowledge/**/
 !/KY/
 !/KY/**/
 !/Leetcode/
@@ -30,6 +30,7 @@
 !Makefile
 !*.md
 !CMakeLists.txt
+!*.sh
 
 # special files to be uploaded
 !.gitignore
