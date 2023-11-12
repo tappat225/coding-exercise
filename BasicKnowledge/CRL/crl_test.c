@@ -58,7 +58,7 @@ static int verify_cert(X509 *ca, X509 *cert, X509_CRL *crl, const char* filePath
     }
 
     /* Enable CRL checking in the X509 store context */
-    X509_STORE_CTX_set_flags(ctx, X509_V_FLAG_CRL_CHECK);
+    X509_STORE_CTX_set_flags(ctx, X509_V_FLAG_CRL_CHECK | X509_V_FLAG_CRL_CHECK_ALL);
 
     /* Verify the certificate */
     ret = X509_verify_cert(ctx);
