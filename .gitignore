@@ -27,6 +27,7 @@
 !*.c
 !*.h
 !*.cpp
+!*.py
 !Makefile
 !*.md
 !CMakeLists.txt
